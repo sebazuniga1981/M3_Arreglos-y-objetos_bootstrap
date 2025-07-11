@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function renderizarPropiedades(propiedades, contenedorId, limite = propiedades.length) {
   const contenedor = document.getElementById(contenedorId);
+  if (!contenedor)return;
   contenedor.innerHTML = "";
 
   for (let i = 0; i < limite; i++) {
@@ -20,7 +21,7 @@ function renderizarPropiedades(propiedades, contenedorId, limite = propiedades.l
 
     contenedor.innerHTML += `
     <div class ="col-md-4">
-    <div class="card h-100 shadow-sm>
+    <div class="card h-100 shadow-sm">
       <div class="propiedad">
         <img src="${propiedad.src}" alt="${propiedad.title}">
         <h2>${propiedad.title}</h2>
