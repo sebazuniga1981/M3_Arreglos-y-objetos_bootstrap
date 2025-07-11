@@ -55,4 +55,4 @@ const propiedadesAlquiler = [
     pets: false
   }
 ]
-export default propiedadesAlquiler
+export default propiedadesAlquiler;

@@ -55,4 +55,4 @@ const propiedadesVenta = [
     pets: false
   }
 ]
-export default propiedadesVenta
+export default propiedadesVenta;
