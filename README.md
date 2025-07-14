@@ -19,3 +19,4 @@ y en data  se entregan los booleanos
 5.En la página index.html, mostrar solo 3 propiedades en venta y 3 propiedades en alquiler. Tal como se muestra en la imagen 1, enlaza el botón a su respectiva página web para ver más propiedades. (1 punto).
 
 R. se muestran tres propiedades en index desde los contenedores (3) y  desde las paginas se muestran las tarjetas totales (sin el 3).
+https://github.com/sebazuniga1981/M3_Arreglos-y-objetos_bootstrap
